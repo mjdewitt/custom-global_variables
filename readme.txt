@@ -55,7 +55,16 @@ Or using the superglobal in PHP:
 
 == Changelog ==
 = 1.1.2.F =
+The fundamental difference is that this version handles zero values, nulls, and booleans.
 
+Plus the following features were added:
+The display of both variable names and values has been expanded
+Variable names must be proper and unique before submitting
+The value field type toggles between text and texarea when the string length is greater than 50
+Errors are displayed before submit
+Submit is disabled by errors
+User documentation of variable handling is added and can be displayed optionally
+A dump of $GLOBALS['cgv'] may be optionally displayed
 
 
 == Changelog ==
