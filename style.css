@@ -1,0 +1,97 @@
+div.wrap .card {
+  max-width: 70%;
+}
+#custom-global-variables-table-definitions{
+  width:100%
+}
+#custom-global-variables-table-definitions>tbody>tr>th,td{
+  text-align:center;
+  vertical-align:top
+}
+#custom-global-variables-table-definitions>tbody>tr>td.name{
+  width:30%
+}
+#custom-global-variables-table-definitions>tbody>tr>td.count{
+  width:2%;
+  vertical-align: middle;  
+}
+
+#custom-global-variables-table-definitions>tbody>tr>td.name input{
+  border-top:0;border-left:0;border-right:0
+}
+#custom-global-variables-table-definitions>tbody>tr>td.value-input{
+  width:60%
+}
+#custom-global-variables-table-definitions>tbody>tr>td.options{
+  width:5%
+}
+#custom-global-variables-table-definitions>tbody>tr>td.options .delete{
+  cursor:pointer;
+  height:auto;
+  min-height: 20px;
+  min-width: 20px;
+  margin:0.65em 0 0.65em 0.65em;
+  transition:all .2s ease-in-out;
+  width:100%;
+  opacity: .5;  
+}
+#custom-global-variables-table-definitions>tbody>tr>td.options .delete:hover{
+  transition:all .2s ease-in-out;
+  opacity: 1;  
+}
+
+#custom-global-variables-table-definitions>tbody>tr>td input,
+#custom-global-variables-table-definitions>tbody>tr>td textarea{
+  border:1px solid #ddd;
+  box-shadow:none;
+  padding:0.75em;
+  width:100%
+}
+#custom-global-variables-table-definitions>tbody>tr>td textarea{
+  height:5em
+}
+#custom-global-variables-table-definitions>tbody>tr>td.equal{
+  width: 2%;
+}
+#custom-global-variables-table-definitions>tbody>tr>td .equals{
+  color:#999;
+  display:block;
+  padding:0.25em
+}
+#custom-global-variables-table-definitions>tbody>tr>td input.invalid,
+#custom-global-variables-table-definitions>tbody>tr>td:first-child input.invalid {
+  border:1px solid red
+}
+
+#custom-global-variables-table-definitions>tbody>tr>td span {
+  color: red;
+  font-size: 9px;
+}
+#cgv-description tbody,tr,th,td{
+  vertical-align: middle;
+  text-align: left;
+  font-size: 14px;
+  padding: .5em;
+}
+#custom-global-variables-table-definitions>tbody>tr>th{
+  font-size: 14px;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  
+}
+#display-vars {
+  float:left;
+  width: 100%;
+  padding: 1em;
+}
+#cgv-show-hide {
+	width: 100%;
+text-align: right;
+  font-size: 16px;
+  color: blue;
+  margin: 10px 0;
+  cursor: pointer;
+}
+#cgv-show-hide:hover {
+  color: green;
+}
