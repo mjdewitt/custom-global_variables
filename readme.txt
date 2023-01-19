@@ -1,5 +1,5 @@
 === My Custom Global Variables ===
-Contributors: akirak, abdullahkhalfan
+Contributors: akirak, abdullahkhalfan, mjdewitt
 Tags: custom global variables, variables, options, settings, shortcodes, shortcode, global variables, global options, global settings, custom variables, custom options, custom settings, custom shortcodes, custom shortcode, php variables
 Author URI: https://www.newtarget.com
 Plugin URI: https://www.newtarget.com/solutions/wordpress-websites
@@ -52,6 +52,11 @@ Or using the superglobal in PHP:
 == Screenshots ==
 
 1. Settings -> Custom Global Variables
+
+== Changelog ==
+= 1.1.2.F =
+
+
 
 == Changelog ==
 = 1.1.2 =
